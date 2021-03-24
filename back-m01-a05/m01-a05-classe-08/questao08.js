@@ -4,10 +4,12 @@ const carro = {
 
 }
 
+
+
 function ligar(carro) {
     if (!carro.ligado) {
         carro.ligado = true
-        console.log(`Carro ligado. Velocidade: ${carro.velocidade}`) //Vruuuummm!!!  vrum vrum vrum
+        console.log(`Carro ligado. Velocidade: ${carro.velocidade}`) 
     } else {
         console.log(`Este carro já está ligado.`)
     }
@@ -16,7 +18,7 @@ function ligar(carro) {
 function acelerar(carro) {
     if (carro.ligado) {
         carro.velocidade += 10 
-        console.log(`Carro ligado. Velocidade: ${carro.velocidade} `) //Vruuuummm!!! alguem me segure!
+        console.log(`Carro ligado. Velocidade: ${carro.velocidade} `) 
     } else {
         console.log(`Não é possível acelerar um carro desligado.`)
     }
@@ -25,7 +27,7 @@ function acelerar(carro) {
 function desacelerar(carro) {
     if (carro.ligado) {
         carro.velocidade -= 10 
-        console.log(`Carro ligado. Velocidade: ${carro.velocidade}`) //Freeeia!!! é muita velocidade
+        console.log(`Carro ligado. Velocidade: ${carro.velocidade}`) 
     } else {
         console.log(`Não é possível desacelerar um carro desligado.`)
     }
@@ -35,7 +37,7 @@ function desligar(carro) {
     if (carro.ligado) {
         carro.ligado = false 
         carro.velocidade = 0
-        console.log(`Carro desligado. Velocidade: ${carro.velocidade}`)//Gubai Masta
+        console.log(`Carro desligado. Velocidade: ${carro.velocidade}`)
     } else {
         console.log(`Este carro já está desligado.`)
     }
