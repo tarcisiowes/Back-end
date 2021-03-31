@@ -1,0 +1,19 @@
+
+# Back-end | Módulo 01 - Aula 07
+
+## Exercícios de classe 🏫
+
+1.  Filtro de caracteres
+2.  Busca de CEP
+3.  Modificando um array
+4.  Filtro de números positivos
+5.  Filtro de números pares
+6.  Temporizador de jogos
+7.  Escrevendo em arquivos
+
+# Exercícios de casa 🏡
+
+8. Filtro de nome por letra
+9. Filtro de usuários
+10. Filtro de números únicos
+
