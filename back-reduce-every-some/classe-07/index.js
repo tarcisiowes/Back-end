@@ -30,3 +30,7 @@ const usuários = [
         habilitado: true,
     },
 ]
+
+const novaLista = usuários.filter(x => x.idade >= 18 && x.idade <= 65).every(x => x.habilitado);
+
+console.log(novaLista ? "Todos passaram no teste" : "Todos precisam estar habilitados");
